@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0;
 }
 
 .App-logo {
@@ -35,4 +36,137 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a.tileAnchor {
+  background: #fff;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 -15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.imgWrapper {
+  background: #eef0f5;
+  width: 254px;
+  height: 160px;
+  position: relative;
+}
+
+.tileHeading {
+  margin-top: 14px;
+  min-height: 64px;
+}
+
+.sectionHeading {
+  text-align: left;
+  font-weight: 600;
+  font-size: 28px;
+  -ms-flex: 1;
+  flex: 1;
+  text-transform: capitalize;
+  padding-bottom: 25px;
+}
+
+.tileWrapper {
+  margin-bottom: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 260px;
+}
+
+.tile {
+  width: 254px;
+}
+
+.restaurantSection {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.starRating {
+  height: 20px;
+  width: 43px;
+  padding: 0;
+  font-weight: 400;
+}
+
+.deliveryInfo {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 12px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #535665;
+  text-transform: uppercase;
+}
+
+.restaurantName {
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.foodTypes {
+  color: #686b78;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.restaurantInfo {
+  height: 116px;
+}
+
+.dot {
+  font-weight: 900;
+}
+
+.moreRestaurant {
+  width: 100%;
+  min-height: 275px;
+  background-color: #fff;
+  border-color: #fc8019;
+}
+
+.leftNavOption {
+  text-align: left;
+  min-height: 80px;
+  background: #fff;
+  color: #000;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.leftNavWrapper {
+  margin-top: 70px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.categoryName {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0 15px;
+  font-weight: 500;
+}
+
+.leftNavOption:hover,
+.leftNavOptionSelected {
+  background: #fc8019;
+  color: #fff;
+}
+
+.options {
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.seeAllWrapper {
+  margin-top: 75px;
 }
